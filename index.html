@@ -1,0 +1,171 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="cs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <script src="app.js"></script>
+    <div class="header" id="header">
+        <div class="sitename">Sudoku</div>
+
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sudoku Solve</title>
+        <link rel="stylesheet" href="cs.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body class="container">
+        <div class="menu" id="menu">
+            <label class="options"></label>
+                   <select id="cars">
+                       <option value="Easy">Easy</option>
+                       <option value="Normal">Normal</option>
+                       <option value="Hard">Hard</option>
+                   </select>
+           </div>  
+        <main>
+            <table border="2">
+                <caption class="sitename">
+                    <h4>Sudoku Puzzle</h4>
+                </caption>
+                <thead>
+                        <th colspan="3" style="border: none" class="int">Hard</th>
+                    </tr>
+                </thead>
+                <tr class="int">
+                    <td>3</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                </tr>
+                <tr class="int">
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>2</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>8</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>9</td>
+                </tr>
+                <tr class="int">
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>1</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>4</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr class="int">
+                    <td>&nbsp;&nbsp;</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>1</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                </tr>
+                <tr class="int">
+                    <td>8</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>5</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>4</td>
+                </tr>
+                <tr class="int">
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>4</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>5</td>
+                    <td>9</td>
+                    <td>&nbsp;&nbsp;</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr class="int">
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>5</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>3</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                </tr>
+                <tr class="int">
+                    <td>7</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>2</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>1</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                </tr>
+                <tr class="int">
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;</td>
+                    <td style="border: none"></td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>

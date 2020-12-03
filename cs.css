@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 2200px;
+    background-image: url(image/backgrd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+}
+.sitename{
+    color: blueviolet;
+    size: 50px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.menu{
+    color: blueviolet;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.container{
+    size: 20px;
+}
+.menu-icon > .line {
+    background-color: #292929;
+    height: 2px;
+    display: block;
+}
+.menu-icon > .line + .line {
+    margin-top: 8px;
+}
+.menu-icon{
+    width: 30px;
+}
+.table{
+    border-color: white;
+}
+.int{
+    color: blueviolet   ;
+}
